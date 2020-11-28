@@ -1,0 +1,23 @@
+---
+
+multicast:
+  CBOE:
+    Feed A: { ip: 224.0.131.132 , port: 30001 }
+    Feed A Retransmit: { ip: 224.0.131.133, port: 30001 }
+  ESPEED:
+    Itch Prod Live: { ip: 233.54.12.61, port: 18000 }
+  FENICS:
+    Red: { ip: 233.74.234.135, port: 65133 }
+
+tcp:
+  CBOE:
+    Snapshot: { ip: 74.115.133.69, port: 17201 }
+    Retransmit TCP: { ip: 74.115.133.69, port: 17251 }
+  ESPEED:
+    Itch Prod Snapshot: { ip: 206.200.223.192, port: 18400 }
+    Itch Prod Retransmit: { ip: 206.200.223.208, port: 18100 }
+  BTEC:
+    Onix: { ip: 50.93.143.253, port: 24024 }
+  FENICS:
+    Rerequest: { ip: 148.106.225.67, port: 65131 }
+    Snapshot: { ip: 148.106.225.67, port: 65132 }
